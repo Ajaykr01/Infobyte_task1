@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(./hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar {
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 80px;
+  filter: invert(1);
+}
+.nav-item {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 20px;
+  font-family: fantasy;
+}
+.nav-item a {
+  color: white;
+  text-decoration: none;
+}
+.hero-section {
+  margin: 130px 220px 30px;
+}
+.hero-section :nth-child(1) {
+  font-size: 4rem;
+  color: cyan;
+}
+.hero-section h2 {
+  font-size: 7rem;
+  color: gold;
+  font-family: serif;
+}
+.hero-section :nth-child(3) {
+  font-size: 25px;
+  color: white;
+}
+.hero-section button {
+  height: 45px;
+  width: 100px;
+  border-radius: 30px;
+  border: none;
+  background: black;
+  color: white;
+  font-size: 15px;
+  font-weight: 800;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.icons {
+  display: flex;
+  margin-left: 14rem;
+  gap: 10px;
+}
+.icons img {
+  width: 30px;
+  filter: invert(1);
+}
